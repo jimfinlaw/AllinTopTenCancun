@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38DE38B2880B6F900EF6647 /* AllinTopTenCancunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38DE37B2880B6F400EF6647 /* AllinTopTenCancunApp.swift */; };
+		C38DE3A22880C41F00EF6647 /* VideoViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38DE3A12880C41F00EF6647 /* VideoViewList.swift */; };
+		C38DE3A42880C48800EF6647 /* VideoListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38DE3A32880C48800EF6647 /* VideoListDetail.swift */; };
+		C38DE3CA2880C52900EF6647 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38DE3C92880C52900EF6647 /* Video.swift */; };
+		C38DE3CC2880C5C100EF6647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38DE3CB2880C5C100EF6647 /* Assets.xcassets */; };
+		C38DE3D42880E83600EF6647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38DE3D32880E83600EF6647 /* LaunchScreen.storyboard */; };
+		C3F9441D28873DDD007D0293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38DE3CB2880C5C100EF6647 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C38DE37B2880B6F400EF6647 /* AllinTopTenCancunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllinTopTenCancunApp.swift; sourceTree = "<group>"; };
+		C38DE3822880B6F900EF6647 /* AllinTopTenCancun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllinTopTenCancun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38DE3882880B6F900EF6647 /* AllinTopTenCancun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllinTopTenCancun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38DE38A2880B6F900EF6647 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C38DE3A12880C41F00EF6647 /* VideoViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewList.swift; sourceTree = "<group>"; };
+		C38DE3A32880C48800EF6647 /* VideoListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListDetail.swift; sourceTree = "<group>"; };
+		C38DE3C92880C52900EF6647 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		C38DE3CB2880C5C100EF6647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/SwiftUI-List-Starter (2)/SwiftUI-List-Starter/Assets.xcassets"; sourceTree = "<group>"; };
+		C38DE3D32880E83600EF6647 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38DE37F2880B6F900EF6647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38DE3852880B6F900EF6647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38DE3752880B6F300EF6647 = {
+			isa = PBXGroup;
+			children = (
+				C38DE3D32880E83600EF6647 /* LaunchScreen.storyboard */,
+				C38DE37A2880B6F400EF6647 /* Shared */,
+				C38DE3892880B6F900EF6647 /* macOS */,
+				C38DE3832880B6F900EF6647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38DE37A2880B6F400EF6647 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C38DE37B2880B6F400EF6647 /* AllinTopTenCancunApp.swift */,
+				C38DE3A12880C41F00EF6647 /* VideoViewList.swift */,
+				C38DE3A32880C48800EF6647 /* VideoListDetail.swift */,
+				C38DE3C92880C52900EF6647 /* Video.swift */,
+				C38DE3CB2880C5C100EF6647 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C38DE3832880B6F900EF6647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38DE3822880B6F900EF6647 /* AllinTopTenCancun.app */,
+				C38DE3882880B6F900EF6647 /* AllinTopTenCancun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38DE3892880B6F900EF6647 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C38DE38A2880B6F900EF6647 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38DE3812880B6F900EF6647 /* AllinTopTenCancun (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38DE3932880B6F900EF6647 /* Build configuration list for PBXNativeTarget "AllinTopTenCancun (iOS)" */;
+			buildPhases = (
+				C38DE37E2880B6F900EF6647 /* Sources */,
+				C38DE37F2880B6F900EF6647 /* Frameworks */,
+				C38DE3802880B6F900EF6647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AllinTopTenCancun (iOS)";
+			productName = "AllinTopTenCancun (iOS)";
+			productReference = C38DE3822880B6F900EF6647 /* AllinTopTenCancun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38DE3872880B6F900EF6647 /* AllinTopTenCancun (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38DE3962880B6F900EF6647 /* Build configuration list for PBXNativeTarget "AllinTopTenCancun (macOS)" */;
+			buildPhases = (
+				C38DE3842880B6F900EF6647 /* Sources */,
+				C38DE3852880B6F900EF6647 /* Frameworks */,
+				C38DE3862880B6F900EF6647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AllinTopTenCancun (macOS)";
+			productName = "AllinTopTenCancun (macOS)";
+			productReference = C38DE3882880B6F900EF6647 /* AllinTopTenCancun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38DE3762880B6F300EF6647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C38DE3812880B6F900EF6647 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C38DE3872880B6F900EF6647 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = C38DE3792880B6F300EF6647 /* Build configuration list for PBXProject "AllinTopTenCancun" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38DE3752880B6F300EF6647;
+			productRefGroup = C38DE3832880B6F900EF6647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38DE3812880B6F900EF6647 /* AllinTopTenCancun (iOS) */,
+				C38DE3872880B6F900EF6647 /* AllinTopTenCancun (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38DE3802880B6F900EF6647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38DE3CC2880C5C100EF6647 /* Assets.xcassets in Resources */,
+				C38DE3D42880E83600EF6647 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38DE3862880B6F900EF6647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9441D28873DDD007D0293 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38DE37E2880B6F900EF6647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38DE38B2880B6F900EF6647 /* AllinTopTenCancunApp.swift in Sources */,
+				C38DE3CA2880C52900EF6647 /* Video.swift in Sources */,
+				C38DE3A42880C48800EF6647 /* VideoListDetail.swift in Sources */,
+				C38DE3A22880C41F00EF6647 /* VideoViewList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38DE3842880B6F900EF6647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C38DE3912880B6F900EF6647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C38DE3922880B6F900EF6647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C38DE3942880B6F900EF6647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTAHQ2DXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bookit-tv-me.com.AllinTopTenCancun";
+				PRODUCT_NAME = AllinTopTenCancun;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C38DE3952880B6F900EF6647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTAHQ2DXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bookit-tv-me.com.AllinTopTenCancun";
+				PRODUCT_NAME = AllinTopTenCancun;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38DE3972880B6F900EF6647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTAHQ2DXH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bookit-tv-me.com.AllinTopTenCancun";
+				PRODUCT_NAME = AllinTopTenCancun;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C38DE3982880B6F900EF6647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTAHQ2DXH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bookit-tv-me.com.AllinTopTenCancun";
+				PRODUCT_NAME = AllinTopTenCancun;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38DE3792880B6F300EF6647 /* Build configuration list for PBXProject "AllinTopTenCancun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38DE3912880B6F900EF6647 /* Debug */,
+				C38DE3922880B6F900EF6647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38DE3932880B6F900EF6647 /* Build configuration list for PBXNativeTarget "AllinTopTenCancun (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38DE3942880B6F900EF6647 /* Debug */,
+				C38DE3952880B6F900EF6647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38DE3962880B6F900EF6647 /* Build configuration list for PBXNativeTarget "AllinTopTenCancun (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38DE3972880B6F900EF6647 /* Debug */,
+				C38DE3982880B6F900EF6647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38DE3762880B6F300EF6647 /* Project object */;
+}
